@@ -19,7 +19,7 @@ participants for the ladder.
 They should however be usable on the tabletop and may be possible to be played
 against 'Princess' included in MegaMek. When playing against the bot, players
 may create multiple stables and assign these to the bot, or simply give the AI
-random `Mechs in their chosen weight class.
+random `Mechs in their chosen weight class.
 
 ---
 
