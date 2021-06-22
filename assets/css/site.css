@@ -1,0 +1,17 @@
+body {
+  background: url('/assets/images/solaris_seven_wallpaper_desktop_1920x1200_e_by_leg_by_oathoffealty-dcfdacl.jpg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: darkgray;
+
+}
+
+main.container,
+.container.footer {
+  background-color: whitesmoke;
+  opacity: 75%;
+  margin-top: 1rem;
+}
+
+nav.navbar {
+  background-image: url('/assets/images/diamond-plate.png');
+}
