@@ -1,8 +1,11 @@
 ---
 layout: base
 title: Rules of the Games
-toc: true
 ---
+
+* Base List
+{:toc}
+
 These rules are designed to allow players to become Solaris stable masters,
 building their reputation, wealth, and an arsenal of BattleMechs, weapons,
 and the warriors to pilot them. These rules will work best as a PVP
@@ -21,6 +24,8 @@ They should however be usable on the tabletop and may be possible to be played
 against 'Princess' included in MegaMek. When playing against the bot, players
 may create multiple stables and assign these to the bot, or simply give the AI
 random 'Mechs in their chosen weight class.
+
+These rules have been designed, and are continually being revised by, UlyssesSockdrawer.
 
 ---
 

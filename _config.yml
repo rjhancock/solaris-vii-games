@@ -32,7 +32,6 @@ url: "https://solarisvii.games" # the base hostname & protocol for your site, e.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default.
