@@ -10,7 +10,7 @@
     <link href="/assets/css/site.css" rel='stylesheet'>
 
     <title>{{ page.title }} - Solaris VII Games</title>
-    {{ seo }}
+    {% seo %}
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div class='container'>
-        {{ content }}
+        {{ content | toc }}
       </div>
     </main>
 

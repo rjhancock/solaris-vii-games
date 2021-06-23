@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Solaris VII Games
+title: MegaMek Invitational
 email: rjhancock@tapenvy.us
 description: >- # this means to ignore newlines until "baseurl:"
-  Solaris VII Tournament powered by MegaMek. Test your metal in BattleMech's
+  Welcome to the MegaMek Invitational! Test your metal in BattleMech's
   in the famous Solaris Arena. Will you die in the first round or will you
   make your way to the top of the charts and make a name as the next
   gladiator?
@@ -32,6 +32,7 @@ url: "https://solarisvii.games" # the base hostname & protocol for your site, e.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-toc
 
 # Exclude from processing.
 # The following items will not be processed, by default.
