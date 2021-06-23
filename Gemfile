@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
+  gem 'jekyll-toc'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
