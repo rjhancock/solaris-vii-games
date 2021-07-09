@@ -82,6 +82,7 @@ Any pilot with either a gunnery or piloting score of 3+ may purchase one special
 | ---                         | :---:     |
 | Natural Aptitude: Gunnery   | 1,000,000 |
 | Natural Aptitude: Piloting  | 800,000   |
+| Animal Mimicry              | 250,000   |
 | Cluster Hitter              | 250,000   |
 | Dodge                       | 100,000   |
 | Hopping Jack                | 150,000   |
@@ -90,7 +91,8 @@ Any pilot with either a gunnery or piloting score of 3+ may purchase one special
 | Melee Master                | 400,000   |
 | Sandblaster                 | 350,000   |
 | Some Like it Hot            | 100,000   |
-|Weapon Specialist            | 500,000   |
+| Weapon Specialist           | 500,000   |
+| Gunnery Specialisation      | 400,000   |
 {: .table.table-hover.table-striped }
 
 ### Edge
@@ -115,9 +117,11 @@ Any tech with a skill of 3+ may purchase ‘Clan Tech Knowledge’ for an additi
 
 ### Customize ‘Mechs
 
-Once a ‘mech, pilots, and a technician have been purchased, remaining funds may be used to customize the ‘mech to the player’s liking. Solaris is known for seeing weird and wonderful custom BattleMech designs. Follow the section of rules for ‘BattleMech Customization’ for this step.
+Once a ‘mech, pilots, and a technician have been purchased, remaining funds may be used to customize the ‘mech to the player’s liking. Solaris is known for seeing weird and wonderful custom BattleMech designs. Follow the section of rules for ‘BattleMech Customization’ section when customizing your ‘Mech
 
 ### Alternative Stable Creation (Choosing a weight class)
+
+All players must agree to follow the alternative stable creation rules.
 
 These alternative creation rules allow the player to choose a weight class to start in. These are:
 
@@ -144,7 +148,7 @@ Starting budget is dictated by the weight class chosen:
 
 Whilst many of the ‘Mechs which take part in duels on Solaris VII are left in their standard configurations, still yet more are customized and tweaked by their stable or pilot to eke out any advantage possible in the arena.
 
-This section details the rules and restrictions on ‘mech customization.
+This section details the rules and restrictions on ‘Mech customization.
 
 ### Parts Costs
 
@@ -158,7 +162,13 @@ At any point, and for no cost, a ‘mech may be reverted to its stock configurat
 
 A player may have up to three alternate configurations per BattleMech. The parts for each configuration must be purchased separately.
 
-There is no cost saving for sharing parts between configurations. Each new configuration must pay the full market price for each ‘mech part used.
+There is no cost saving for sharing weapons or ammunition between configurations. Each new configuration must pay the full market price for each part used.
+
+There is no cost saving for sharing weapons or ammunition between configurations. Each new configuration must pay the full market price for each part used.
+
+* Engine Type/Rating
+* Armor/Amount
+* Structure Type
 
 There is no cost to switch between configurations.
 
@@ -325,6 +335,8 @@ Only one grudge match may be played per week, no matter whether a player has a c
 
 Grudge matches are always a one on one. The other player must accept the grudge match.
 
+All grudge points are expended once a grudge match has been played.
+
 ### Playing the Match
 
 Matches should be played on an appropriate map representing a Solaris arena. The existing Solaris maps packaged with MegaMek may be used, or GMs/players may use random maps between 1-2 map sheets in size.
@@ -403,7 +415,9 @@ Participants in an exhibition or team match should work out their total rewards 
 | Kill Bonus (Shooting)                   | 50,000   |
 | Kill Bonus (Melee)                      | 75,000   |
 | Conceded before round 5                 | -50,000  |
-| Intentionally targeted an ejected pilot | -120,000 |
+| Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
+| Fired on a Conceded `Mech               | Pay all repair bills for other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
 {: .table.table-hover.table-striped }
 
 For a grudge match, all prizes are multiplied by 1.5 due to the high-stakes and interest from the crowd. This is calculated before the weight-class modifier.
@@ -425,7 +439,9 @@ Rewards are calculated as follows:
 | Kill Bonus (Shooting)                   | 100,000  |
 | Kill Bonus (Melee)                      | 125,000  |
 | Conceded before round 5                 | -50,000  |
-| Intentionally targeted an ejected pilot | -120,000 |
+| Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
+| Fired on a Conceded `Mech               | Pay all repair bills for other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
 {: .table.table-hover.table-striped }
 
 ### Quarter-Final, Semi-Final, and Final Match Rewards
@@ -442,21 +458,27 @@ Rewards are calculated as follows:
 | Kill Bonus (Shooting)                   | 100,000   |
 | Kill Bonus (Melee)                      | 125,000   |
 | Conceded before round 5                 | -50,000   |
-| Intentionally targeted an ejected pilot | -120,000  |
+| Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
+| Fired on a Conceded `Mech               | Pay all repair bills for other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
 | **Semi-Final**                          |           |
 | Participated                            | 750,000   |
 | Won                                     | 1,000,000 |
 | Kill Bonus (Shooting)                   | 150,000   |
 | Kill Bonus (Melee)                      | 175,000   |
 | Conceded before round 5                 | -50,000   |
-| Intentionally targeted an ejected pilot | -120,000  |
+| Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
+| Fired on a Conceded `Mech               | Pay all repair bills for other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
 | **Final**                               |           |
 | Participated                            | 1,000,000 |
 | Won                                     | 3,000,000 |
 | Kill Bonus (Shooting)                   | 250,000   |
 | Kill Bonus (Melee)                      | 300,000   |
 | Conceded before round 5                 | -50,000   |
-| Intentionally targeted an ejected pilot | -120,000  |
+| Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
+| Fired on a Conceded `Mech               | Pay all repair bills for other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
 {: .table.table-hover.table-striped }
 
 ### Weight Class Multipliers
@@ -491,6 +513,8 @@ The Clan Tech modifier is ignored if that `Mech’s technical staff has the ‘C
 | Heavy Damage                      | 1.80           |
 | Crippled                          | 2.25           |
 | Cored/Engine Destruction          | 3.00           |
+| Ammo Explosion (CASE II)          | 3.00           |
+| Ammo Explosion (CASE)             | 4.00           |
 | Ammo Explosion                    | 5.00           |
 | **Clan Tech?**                    |                |
 | Yes                               | 1.25           |
@@ -513,7 +537,7 @@ Any pilot receiving 3 or fewer hits during a match recovers fully after the matc
 
 Any pilot receiving 4 or more hits should roll on the below table using 2d6 + any modifiers. Stables may spend multiples of 100,000 C-Bills to get a +1 bonus to their dice roll, up to a bonus of +5.
 
-A pilot with 4 or 5 hits who fails the target number is crippled – they have lost a limb or sustained a severe injury. They must sit out the next two weeks whilst they recover and are fitted with a prosthetic.
+A pilot with 4 or 5 hits who fails the target number is crippled – they have lost a limb or sustained a severe injury. They must sit out the next two weeks whilst they recover and receive treatment.
 
 A pilot who suffered 6 hits (i.e., ‘killed’) is permanently dead if they roll below their target number, otherwise they should be treated as crippled.
 
@@ -604,9 +628,11 @@ Renown is earned and lost after each battle using the following table:
 
 #### Grudges and Rivalries
 
-As pilots compete in the high stakes arenas of Solaris 7, they can build grudges and rivalries with other pilots. These are personal to the MechWarriors involved, and their grudge points are retained if they change stable.
+As pilots compete in the high stakes arenas of Solaris 7, they can build grudges and rivalries with other stables. Grudge points are tracked at a stable level.
 
 Grudge points are not gained during seed matches.
+
+The number of grudge points held vs. a stable cannot exceed 5.
 
 Grudge points are gained using the below table:
 
@@ -614,9 +640,12 @@ Grudge points are gained using the below table:
 | :---                                   | :---:                     |
 | Per match fought vs. other MechWarrior | 1                         |
 | Cockpit Destroyed                      | 3                         |
+| Conceded `Mech Targeted                | 4                         |
 | MechWarrior targeted outside of 'mech  | 5                         |
 | End of season                          | -3                        |
 {: .table.table-hover.table-striped }
+
+Grudge points are additive, so a stable who fought in a match, conceded, and was targeted would earn 5 grudge points.
 
 #### Pilot Training
 
@@ -634,6 +663,16 @@ The player should pick a skill they are trying to advance for the MechWarrior, i
 | 3+ -> 2+ | 200,000 / 10+   | 3+ -> 2+ | 150,000 / 9+    |
 | 2+ -> 1+ | 350,000 / 12+   | 2+ -> 1+ | 300,000 / 11+   |
 {: .table.table-hover.table-striped }
+
+The roll for pilot training may be improved with the following bonuses:
+
+| Condition | Bonus To Roll |
+| :---      | :---          |
+| Number of weeks attempting training this skill to the next level | +1 per week, up to a maxiumum of +3 |
+| Fought in both a ladder and exhibition, team, or grudge match this week | +1 |
+{: .table.table-hover.table-striped }
+
+The weekly bonus of +1 per week of attempted training on a skill to a new level is reset when the mechwarrior successfully levels up that skill.
 
 #### Buying New SPAs
 
@@ -754,7 +793,7 @@ To calculate rights earnings, roll a 3d6 on the following table, adding the tota
 
 Between seasons, stable masters may seek outside investment in their stable, perhaps through advertising and sponsorship deals, stocks and shares, or lump sums. These investors will expect returns for their money.
 
-If players wish to seek outside investment, they should roll 2d6 on the below table. A player may pick any outside investment option from the bracket they rolled, or from any lower bracket. This represents their negotiating position.
+If players wish to seek outside investment, they should roll 2d6 on the below table. A player may pick an investment option from the bracket they rolled, or from any lower bracket. This represents their negotiating position.
 
 | Total Roll  | Amount Received | Conditions                                              |
 | :---        | :---:           | ---:                                                    |
