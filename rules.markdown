@@ -14,9 +14,9 @@ The rules should support any number of players, but an even number will work bes
 
 The rules are intended for creating a ‘zero to hero’ story, starting from the light ‘mech class and working up, but players may choose to start at a higher weight class if their player group agrees and will have enough participants for the ladder.
 
-They should however be usable on the tabletop and may be possible to be played against the Princess bot included in MegaMek. When playing against the bot, players may create multiple stables and assign these to the bot, or simply give the AI random `mechs in their chosen weight class.
+They should however be usable on the tabletop and may be possible to be played against the Princess bot included in MegaMek. When playing against the bot, players may create multiple stables and assign these to the bot, or simply give the AI random `Mechs in their chosen weight class.
 
-These rules have been designed, and are continually being revised by, UlyssesSockdrawer.
+These rules have been designed, and are continually being revised by, UlyssesSockdrawer and are current as of version 0.54 of the rules.
 
 ---
 
@@ -92,7 +92,7 @@ Any pilot with either a gunnery or piloting score of 3+ may purchase one special
 | Sandblaster                 | 350,000   |
 | Some Like it Hot            | 100,000   |
 | Weapon Specialist           | 500,000   |
-| Gunnery Specialisation      | 400,000   |
+| Gunnery Specialization      | 400,000   |
 {: .table.table-hover.table-striped }
 
 ### Edge
@@ -164,7 +164,7 @@ A player may have up to three alternate configurations per BattleMech. The parts
 
 There is no cost saving for sharing weapons or ammunition between configurations. Each new configuration must pay the full market price for each part used.
 
-There is no cost saving for sharing weapons or ammunition between configurations. Each new configuration must pay the full market price for each part used.
+The following parts may be shared between design configurations without being purchased again:
 
 * Engine Type/Rating
 * Armor/Amount
@@ -291,7 +291,9 @@ A suggested points system is as follows:
 
 ### Stables with Multiple ‘Mechs
 
-A stable with multiple ‘Mechs in its line-up is free to switch between ‘Mechs for each match. For example, a stable with two ‘Mechs might choose to alternate them between each ladder match or based on knowledge of their opponent.
+A stable with multiple ‘Mechs in its line-up is free to switch between ‘Mechs for each match. For example, a stable with two ‘mechs might choose to alternate them between each ladder match or based on knowledge of their opponent.
+
+Multi-‘Mech stables may, with their opponents consent, compete in a team match solo. This may only take place if the player wishing to play solo in a team match can field the same number of ‘mechs as their opponents e.g. a player with two ‘Mechs could play a team match against two players with one ‘mech each.
 
 ### Ladder Timescale
 
@@ -357,7 +359,7 @@ Any pilot unconscious for three consecutive rounds automatically concedes.
 
 ### Fifty-Fifty
 
-If both players manage to destroy the others ‘mech in the same turn, this is a fifty-fifty. In this case, the match is called as a draw. Both players receive the participation reward as well as the kill bonus. The match should then be rescheduled for a re-fight.
+If both players manage to destroy the others ‘Mech in the same turn, this is a fifty-fifty. In this case, the match is called as a draw. Both players receive the participation reward as well as the kill bonus. The match should then be rescheduled for a re-fight, unless it is an exhibition, team or grudge match.
 
 ### Board Edges
 
@@ -417,7 +419,7 @@ Participants in an exhibition or team match should work out their total rewards 
 | Conceded before round 5                 | -50,000  |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
-| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 {: .table.table-hover.table-striped }
 
 For a grudge match, all prizes are multiplied by 1.5 due to the high-stakes and interest from the crowd. This is calculated before the weight-class modifier.
@@ -441,7 +443,7 @@ Rewards are calculated as follows:
 | Conceded before round 5                 | -50,000  |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
-| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 {: .table.table-hover.table-striped }
 
 ### Quarter-Final, Semi-Final, and Final Match Rewards
@@ -460,7 +462,7 @@ Rewards are calculated as follows:
 | Conceded before round 5                 | -50,000   |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
-| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 | **Semi-Final**                          |           |
 | Participated                            | 750,000   |
 | Won                                     | 1,000,000 |
@@ -469,7 +471,7 @@ Rewards are calculated as follows:
 | Conceded before round 5                 | -50,000   |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
-| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 | **Final**                               |           |
 | Participated                            | 1,000,000 |
 | Won                                     | 3,000,000 |
@@ -478,7 +480,7 @@ Rewards are calculated as follows:
 | Conceded before round 5                 | -50,000   |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
-| Fired on a Conceded `Mech + Killed Pilot | Pall all reapir bills + base cost of pilot to other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 {: .table.table-hover.table-striped }
 
 ### Weight Class Multipliers
@@ -581,7 +583,7 @@ Administration costs represent the outgoings to keep the staff of the stable fed
 
 Administration costs are paid weekly, and should be calculated using the following formula:
 
-`Admin Cost = (Total stable tonnage x 1000) x (Total no. of mechwarriors & techs / 2) x 1.25`
+`Admin Cost = (Total stable tonnage x 1000) x (Total no. of MechWarriors & techs / 2) x 1.25`
 {: .bg-white.rounded.border.p-2 }
 
 e.g. a stable with a single 35 ton Firestarter, 3 MechWarriors, and 1 tech would pay 87,500 C-Bills per week in administration costs.
@@ -591,6 +593,8 @@ e.g. a stable with a single 35 ton Firestarter, 3 MechWarriors, and 1 tech would
 A stable is considered bankrupt when it does not have the funds to pay its wages/admin costs, or a repair cost for its only BattleMech at the end of a week.
 
 A bankrupt stable may take out a loan to keep itself afloat. Only one loan may be taken out at any one time.
+
+A stable may take out a loan at any time, whether it is bankrupt or not. Only one loan may be taken out.
 
 If the stable already has a loan and becomes bankrupt again, it is in default and the stable is closed by repossession agents. The player should roll up a new stable.
 
@@ -602,6 +606,10 @@ Loans can be taken out in the following amounts, with associated interest paymen
 | 2,500,000  | 16 Weeks / 180,000      |
 | 5,000,000  | 24 Weeks / 230,000      |
 {: .table.table-hover.table-striped }
+
+#### Early Repayment
+
+A loan may be repaid early if a stable has sufficient cash to do so. When making an early repayment, pay the current week’s repayment, plus the remaining balance.
 
 ### Pilot Management
 
@@ -668,15 +676,44 @@ The roll for pilot training may be improved with the following bonuses:
 
 | Condition | Bonus To Roll |
 | :---      | :---          |
-| Number of weeks attempting training this skill to the next level | +1 per week, up to a maxiumum of +3 |
-| Fought in both a ladder and exhibition, team, or grudge match this week | +1 |
+| Number of weeks attempting training this skill to the next level | +1 per week, up to a maximum of +3 |
+| Fought in two matches of any type this week                      | +1 |
 {: .table.table-hover.table-striped }
 
-The weekly bonus of +1 per week of attempted training on a skill to a new level is reset when the mechwarrior successfully levels up that skill.
+The weekly bonus of +1 per week of attempted training on a skill to a new level is reset when the MechWarrior successfully levels up that skill.
+
+The bonus for fighting in two matches of any type resets at the beginning of each week. As a result, this is capped at +1.
 
 #### Buying New SPAs
 
 Any pilot who increases a skill level below 3+ may also buy a new SPA, using the cost table provided at stable creation.
+
+The purchasing of an SPA may be postponed until sufficient funds for the desired SPA are available.
+
+#### Skill Maintenance
+
+If a MechWarrior has not taken part in a match in a week, and has a skill rating above ‘Regular’ (G4/P5), they must pay for simulator time to maintain their current skill level.
+
+If a MechWarrior does not pay for simulator time, there is a chance of their skills decreasing.
+
+The cost for sim time to maintain skill levels should be calculated by adding together the cost for each skill level on the below table:
+
+| Gunnery  | Investment / TN | Piloting | Investment / TN |
+| :---     | :---:           | :---     | :---:           |
+| 3        | 25,000          | 4        | 20,000          |
+| 2        | 50,000          | 3        | 40,000          |
+| 1        | 100,000         | 2        | 60,000          |
+| N/A      | N/A             | 1        | 80,000          |
+{: .table.table-hover.table-striped }
+
+If a MechWarrior did not pay for maintenance sim time, the player must roll 2d6 on the table below. If the TN is not met, the MechWarrior's skill decreases by one level. If they have an SPA for that skill level, this is also lost.
+
+| Skill Level | 2d6 TN |
+| :---:       | :---:  |
+| 3/4 - 3/3   | 5+     |
+| 2/3 - 2/2   | 7+     |
+| 1/2 - 1/1   | 9+     |
+{: .table.table-hover.table-striped }
 
 #### Sacking Pilots
 
@@ -695,6 +732,21 @@ Pilots may be sacked at any time, either to save money or because they have rece
 | Elite             | Weekly Salary x 8  |
 {: .table.table-hover.table-striped }
 
+### Tech Training
+
+Techs may be trained in the same way as pilots. A tech may only attempt training once per week.
+
+Roll on the table below, applying any bonus for repeated training attempts and deduct the appropriate number of c-bills.
+
+| Tech Skill | Investment / TN |
+| :---:      | :---:           |
+| 6+ -> 5+   | 100,000 / 6+    |
+| 5+ -> 4+   | 250,000 / 9+    |
+| 4+ -> 3+   | 500,000 / 12+   |
+| **Condition** | **Bonus To Roll** |
+| Number of weeks attempted training this skill to the next level | +1 per week, up to a maximum of +3 |
+{: .table.table-hover.table-striped }
+
 ### Buying New ‘Mechs/Customizing ‘Mechs
 
 New ‘Mechs may be bought at any point in a season, using the rules from stable creation. ‘Mechs may also be customized at any point in the season using the rules from stable creation. Full costs must be paid. Like at stable creation, a new MechTech must be hired for each ‘mech purchased.
@@ -703,11 +755,11 @@ New ‘Mechs may be bought at any point in a season, using the rules from stable
 
 A stable may choose to sell a BattleMech at any point in a season but must always have at least one ‘mech on its roster. A stable cannot exist without a BattleMech.
 
-The process for selling a battlemech is as follows:
+The process for selling a BattleMech is as follows:
 
 1. Make the ‘Mech’s details available to all other players in the tournament, including any details of damage levels.
 2. Other stable masters have a 1-week period in which to place bids for the ‘mech to purchase it if they wish.
-3. If no other stable master chooses to purchase the ‘Mech by the end of the week, the ‘mech is sold on the open market for 60% of the price listed in MekHQ.
+3. If no other stable master chooses to purchase the ‘Mech by the end of the week, the ‘Mech is sold on the open market for 60% of the price listed in MekHQ.
 
 ### New Pilots
 
@@ -717,11 +769,11 @@ New pilots may be purchased at any point in the season, using the rules from sta
 
 A season ends once the final regular matches have been played on both the regular and runners-up ladders.
 
-### MechWarrior Transfers
+### MechWarrior Transfer Market
 
 Similar to many more traditional sports leagues, the Solaris stables have an open ‘transfer’ window at the end of a season.
 
-Instead of sacking MechWarriors to remove them from the roster, a stable may choose to put their contract up for sale, or for loan.
+Instead of sacking MechWarriors' to remove them from the roster, a stable may choose to put their contract up for sale, or for loan.
 
 #### Sale of MechWarrior Contracts
 
@@ -744,7 +796,7 @@ A stable wishing to make a MechWarrior available for loan should do the followin
 2. List a desired price or weekly fee for the loan of the MechWarrior.
 3. Other players may then place bids to take the MechWarrior on loan; the player may choose to accept any one bid, negotiate these, or refuse all bids.
 4. If a bid is accepted, the MechWarrior is loaned to the bidding player, added to their roster, and removed from the original player’s roster.
-5. At the end of the loan period, the mechwarrior is returned to the original player.
+5. At the end of the loan period, the MechWarrior is returned to the original player.
 6. The player who borrowed the MechWarrior may make an offer to purchase the MechWarrior’s contract, even if it is not for sale. The original stable is not obligated to accept this offer.
 
 ### Fame
