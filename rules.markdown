@@ -8,15 +8,15 @@ title: Rules of the Games
 
 These rules are designed to allow players to become Solaris stable masters, building their reputation, wealth, and an arsenal of BattleMechs, weapons, and the warriors to pilot them. These rules will work best as a PVP experience with a GM and are intended for use with the [MegaMek and MekHQ](https://megamek.org) Java apps.
 
-When using MegaMek/MekHQ, a MegaMek [rules configuration file](/seasons/1/SolarisSeason1Preset.xml). A [map pack](/seasons/1/MegaMek_Invitational_-_Map_Pack_1.zip) is also provided, with special rules provided for each map.
+When using MegaMek/MekHQ, a MegaMek [rules configuration file](/seasons/2/Preset.xml). A [map pack](/seasons/1/MegaMek_Invitational_-_Map_Pack_1.zip) is also provided, with special rules provided for each map.
 
 The rules should support any number of players, but an even number will work best to ensure the ladder is split correctly.
 
-The rules are intended for creating a ‘zero to hero’ story, starting from the light ‘mech class and working up, but players may choose to start at a higher weight class if their player group agrees and will have enough participants for the ladder.
+The rules are intended for creating a ‘zero to hero’ story, starting from the light ‘Mech class and working up, but players may choose to start at a higher weight class if their player group agrees and will have enough participants for the ladder.
 
 They should however be usable on the tabletop and may be possible to be played against the Princess bot included in MegaMek. When playing against the bot, players may create multiple stables and assign these to the bot, or simply give the AI random `Mechs in their chosen weight class.
 
-These rules have been designed, and are continually being revised by, UlyssesSockdrawer and are current as of version 0.54 of the rules.
+These rules have been designed, and are continually being revised by, UlyssesSockdrawer and are current as of version 0.60 of the rules.
 
 ---
 
@@ -62,7 +62,7 @@ Due to the nature of Solaris arenas, LAMs may not be used.
 
 Players may purchase up to 3 pilots at stable creation. A starting stable should include no more than 3 pilots.
 
-Be as creative as you like with your pilot names and call-signs, as well as custom portraits! Feel free to add as much background for your pilots as you want.
+Be as creative as you like with your pilot names and call-signs. Feel free to add as much background for your pilots as you want to make them come alive.
 
 The total price of a pilot should be worked out by combining the cost of the Gunnery and Piloting skills listed in the table below:
 
@@ -76,28 +76,54 @@ The total price of a pilot should be worked out by combining the cost of the Gun
 
 ### Pilot SPAs
 
-Any pilot with either a gunnery or piloting score of 3+ may purchase one special ability from the below list, at an additional C-Bill cost:
+If a pilot has a score of 3+ at stable creation, they may choose to purchase an SPA. If the desired SPA is too expensive, this can be deferred until funds are available.
 
-| SPA                         | Cost      |
-| ---                         | :---:     |
-| Natural Aptitude: Gunnery   | 1,000,000 |
-| Natural Aptitude: Piloting  | 800,000   |
-| Animal Mimicry              | 250,000   |
-| Cluster Hitter              | 250,000   |
-| Dodge                       | 100,000   |
-| Hopping Jack                | 150,000   |
-| Hot Dog                     | 100,000   |
-| Manoeuvreing Ace            | 100,000   |
-| Melee Master                | 400,000   |
-| Sandblaster                 | 350,000   |
-| Some Like it Hot            | 100,000   |
-| Weapon Specialist           | 500,000   |
-| Gunnery Specialization      | 400,000   |
+Only one SPA may be purchased at stable creation, even if a pilot is rated at 3/3.
+
+| SPA                         | Cost    |
+| ---                         | :---:   |
+| Sniper                      | 750,000 |
+| Pain Resistance             | 100,000 |
+| Animal Mimicry              | 250,000 |
+| Cluster Hitter              | 250,000 |
+| Cluster Master*             | 500,000 |
+| Dodge                       | 100,000 |
+| Hopping Jack                | 150,000 |
+| Jumping Jack*               | 300,000 |
+| Hot Dog                     | 100,000 |
+| Manoeuvreing Ace            | 100,000 |
+| Melee Master                | 500,000 |
+| Melee Specialist            | 400,000 |
+| Sandblaster                 | 350,000 |
+| Some Like it Hot            | 100,000 |
+| Weapon Specialist**         | 500,000 |
+| Gunnery Specialization**    | 400,000 |
+| Rangemaster                 | 200,000 |
 {: .table.table-hover.table-striped }
+
+*An SPA with a star next to it may only be taken following further pilot training, and is an upgrade to an existing SPA.
+
+** For the purposes of Solaris, these SPAs are not treated as incompatible with each other, but do not stack.
 
 ### Edge
 
 Each pilot starts with 1 edge point.
+
+No additional edge points may be purchased.
+
+### Base Code of Pilot
+
+The base cost of the pilot is defined using the table below + the total cost of all SPAs held by that pilot:
+
+| Gunnery | Cost    | Piloting | Cost    |
+| :---:   | ---     | :---:    | ---     |
+| 6+      | 25,000  | 6+       | 10,000  |
+| 5+      | 50,000  | 5+       | 30,000  |
+| 4+      | 100,000 | 4+       | 80,000  |
+| 3+      | 250,000 | 3+       | 200,000 |
+| 2+      | 500,000 | 2+       | 350,000 |
+| 1+      | 850,000 | 1+       | 650,000 |
+{: .table.table-hover.table-striped }
 
 ### Purchase Technical Staff
 
@@ -107,17 +133,19 @@ Techs are purchased using the following table:
 
 | Skill | Cost    |
 |:---:  |:---:    |
-|6+     | 50,000  |
-|5+     | 75,000  |
-|4+     | 150,000 |
-|3+     | 300,000 |
+| 8+    | 12,500  |
+| 7+    | 25,000  |
+| 6+    | 50,000  |
+| 5+    | 75,000  |
+| 4+    | 150,000 |
+| 3+    | 300,000 |
 {: .table.table-hover.table-striped }
 
-Any tech with a skill of 3+ may purchase ‘Clan Tech Knowledge’ for an additional cost of 500,000. Clan Tech Knowledge is used to reduce the repair and maintenance costs for 'Mechs incorporating Clan technology.
+Any tech with a skill of 3+ may purchase ‘Clan Tech Knowledge’ for an additional cost of 300,000. Clan Tech Knowledge is used to reduce the repair and maintenance costs for Mechs incorporating Clan technology.
 
 ### Customize ‘Mechs
 
-Once a ‘mech, pilots, and a technician have been purchased, remaining funds may be used to customize the ‘mech to the player’s liking. Solaris is known for seeing weird and wonderful custom BattleMech designs. Follow the section of rules for ‘BattleMech Customization’ section when customizing your ‘Mech
+Once a ‘Mech, pilots, and a technician have been purchased, remaining funds may be used to customize the ‘Mech to the player’s liking. Solaris is known for seeing weird and wonderful custom BattleMech designs. Follow the ‘BattleMech Customization’ section when customizing your ‘Mech.
 
 ### Alternative Stable Creation (Choosing a weight class)
 
@@ -158,23 +186,23 @@ Clan tech parts are purchased at their market value x 1.25.
 
 ### Saving Configurations and Reverting to Stock Configuration
 
-At any point, and for no cost, a ‘mech may be reverted to its stock configuration.
+At any point, and for no cost, a ‘Mech may be reverted to its stock configuration.
 
-A player may have up to three alternate configurations per BattleMech. The parts for each configuration must be purchased separately.
+A player may have up to three alternate configurations per BattleMech ‘stored’ in their stable.
 
-There is no cost saving for sharing weapons or ammunition between configurations. Each new configuration must pay the full market price for each part used.
-
-The following parts may be shared between design configurations without being purchased again:
-
-* Engine Type/Rating
-* Armor/Amount
-* Structure Type
+Parts may be freely shared between configurations of the same BattleMech chassis. Players using MekHQ may use the MekHQ warehouse system to keep track of parts purchased for configurations.
 
 There is no cost to switch between configurations.
 
-If a player already has three saved configurations for a ‘mech, one must be discarded before a new configuration can be made for the ‘mech.
+If a player already has three saved configurations for a ‘Mech, one must be discarded before a new configuration can be made for the ‘Mech.
 
 If a configuration is discarded, no costs are recouped from the sale of parts.
+
+Parts which are no longer used by any configuration may be sold for 50% of their original purchase price.
+
+### Omni-Mechs
+
+Omni-Mechs may be freely customized without any impact on game play in these rules.
 
 ### Allowed Parts
 
@@ -190,7 +218,7 @@ Unofficial parts in a standard game.
 
 Parts only available after 3062.
 
-**The following weapon types are disallowed:** Artillery/Indirect
+**The following weapon types are disallowed:** Artillery/Indirect, including Arrow IV
 
 **The following ammunition types are disallowed:** Fuel Air, FASCAM/Thunder, Smoke
 
@@ -226,7 +254,7 @@ Players may not concede during a seed match.
 
 A seed match must have a minimum of 4 stables taking part and no more than 16. Each seed match is a free-for-all deathmatch. There is no turn limit on a seed match.
 
-A seed match should contain an even number of players and is used to determine the starting ladder for the tournament. Each player should bring one mech of the appropriate weight class.
+A seed match should contain an even number of players and is used to determine the starting ladder for the tournament. Each player should bring one Mech of the appropriate weight class.
 
 A seed match should take place in an arena-style map. Map size is up to the players, but suggested values are as follows:
 
@@ -238,7 +266,7 @@ A seed match should take place in an arena-style map. Map size is up to the play
 | 14 - 16           | 3                    |
 {: .table.table-hover.table-striped }
 
-The seed match ends when only one ‘mech is left alive.
+The seed match ends when only one ‘Mech is left alive.
 
 ### Alternate Seed Match Sizes
 
@@ -270,9 +298,13 @@ Those who lose matches on the championship ladder after the first round may join
 
 Some players may want to have larger matches at the start of the ladder. In this case, if all players on that leg of the ladder/the GM agrees, they may play their game using the same format as the seed match, but with the rewards listed for a regular match.
 
-### Players without a ladder position
+### Number of Allowed Exhibition, Team, and Grand Melee Matches
 
-Players without a ladder position i.e. those who have lost twice do not need to worry about not being able to play games or advance their stable. Players without a ladder position are free to play as many exhibition or team matches as they wish for the rest of the season and receive rewards for these exhibition matches.
+Each player in the tournament may play up to four exhibition matches per week, per pilot in their stable.
+
+Each player may play up to two team matches per week.
+
+Each player may play up to one Grand Melee match per week.
 
 ### Alternative for groups of players not in multiples of four
 
@@ -291,9 +323,9 @@ A suggested points system is as follows:
 
 ### Stables with Multiple ‘Mechs
 
-A stable with multiple ‘Mechs in its line-up is free to switch between ‘Mechs for each match. For example, a stable with two ‘mechs might choose to alternate them between each ladder match or based on knowledge of their opponent.
+A stable with multiple ‘Mechs in its line-up is free to switch between ‘Mechs for each match. For example, a stable with two ‘Mechs might choose to alternate them between each ladder match or based on knowledge of their opponent.
 
-Multi-‘Mech stables may, with their opponents consent, compete in a team match solo. This may only take place if the player wishing to play solo in a team match can field the same number of ‘mechs as their opponents e.g. a player with two ‘Mechs could play a team match against two players with one ‘mech each.
+Multi-‘Mech stables may, with their opponents consent, compete in a team match solo. This may only take place if the player wishing to play solo in a team match can field the same number of ‘Mechs as their opponents e.g. a player with two ‘Mechs could play a team match against two players with one ‘Mech each.
 
 ### Ladder Timescale
 
@@ -313,19 +345,25 @@ A play-off match is treated as a regular ladder match for all rewards and renown
 
 If two players are required to play a play-off match, they may only schedule one additional match that week (either an exhibition or a team match), rather than being able to schedule both types of special matches in a week.
 
-### Friendly/Exhibition Matches
+### Grand Melee
 
-Only one exhibition match may be played per week, per player, unless they are without a current ladder position.
+A grand melee is the biggest type of match on Solaris. These are free-for-all death matches between multiple stables.
+
+A grand melee should be between 3 and 8 stables. There is no restriction on having an even number of players.
+
+Each stable may bring up to 4 ‘Mechs. Each stable must be able to field the same number of ‘Mechs as the other. The ‘Mechs fielded may be of any weight class. There are no tonnage restrictions.
+
+E.g. a player could bring four light ‘Mechs, whilst one opponent might bring a ‘Mech of each weight class.
+
+### Friendly/Exhibition Matches
 
 A player may choose to play an exhibition match with any other player on the ladder, no matter their position or seeding. The other player must agree to the match.
 
-An exhibition match is a one-on-one deathmatch, fought until one player’s mech is destroyed, or a player concedes.
+An exhibition match is a one-on-one death match, fought until one player’s `Mech is destroyed, or a player concedes.
 
 Exhibition matches have no impact on ladder position.
 
 ### Team Matches
-
-Only one team match may be played per week unless the players are without a current ladder position. This is in addition to any exhibition matches scheduled.
 
 A team match is played between multiple stables, or between two stables who can field equal numbers of ‘Mechs. Teams should have even numbers of ‘Mechs on each side.
 
@@ -345,7 +383,7 @@ Matches should be played on an appropriate map representing a Solaris arena. The
 
 ### Map Selection
 
-If using MegaMek and the provided map pack, roll 1d6 and pick the corresponding map number for the match e.g. a roll of 6 would have the match take place at the Steiner Colosseum.
+If using MegaMek and the provided map pack, roll one dice for the number of maps in the pack e.g. 1d12 and pick the map selected by its number in the map pack rules.
 
 Roll for any special conditions set for the map in the rules document included with the map pack.
 
@@ -353,7 +391,7 @@ Roll for any special conditions set for the map in the rules document included w
 
 The vital signs of any MechWarrior competing in Solaris are closely monitored by the stable’s med-team. As a result, any pilot with three or more hits who falls unconscious will automatically concede the match.
 
-A player whose pilot has two hits or fewer or falls unconscious may choose to concede, or may choose to keep the pilot in the match in the hope they return to consciousness.
+A player whose pilot has two hits or fewer or falls unconscious may choose to concede or may choose to keep the pilot in the match in the hope they return to consciousness.
 
 Any pilot unconscious for three consecutive rounds automatically concedes.
 
@@ -363,27 +401,36 @@ If both players manage to destroy the others ‘Mech in the same turn, this is a
 
 ### Board Edges
 
-If a ‘mech flees the board from an edge, or is forced off a board edge by a charge attack, or death from above displacement, it is considered to have conceded.
+If a ‘Mech flees the board from an edge, or is forced off a board edge by a charge attack, or death from above displacement, it is considered to have conceded.
 
 The player who initiated the charge or DFA attack receives the financial rewards and pilot renown for winning via a melee kill.
 
-If the ‘mech was forced from the board by a charge attack or DFA displacement before round 5, its stable does not pay the early concession penalty.
+If the ‘Mech was forced from the board by a charge attack or DFA displacement before round 5, its stable does not pay the early concession penalty.
 
 ### Ejected Pilots/Pilots outside of ‘Mechs
 
-Sometimes, a pilot may be forced to eject from their ‘mech – either by ammunition explosion or other catastrophic damage. If the match is a 1v1, the match ends due to ‘mech destruction. If the match is a team match or a free-for-all regular match early in the ladder, pilots are likely to be on the board and in danger.
+Sometimes, a pilot may be forced to eject from their ‘Mech – either by ammunition explosion or other catastrophic damage. If the match is a 1v1, the match ends due to ‘Mech destruction. If the match is a team match or a free-for-all regular match early in the ladder, pilots are likely to be on the board and in danger.
 
-If a ‘mech intentionally targets, either with shooting or melee attacks, an ejected pilot this is bad sportsmanship. Financial penalties in the form of life/medical insurance will be paid by the stable who’s ‘mech injured/killed the pilot.
+If a ‘Mech intentionally targets, either with shooting or melee attacks, an ejected pilot this is bad sportsmanship. Financial penalties in the form of life/medical insurance will be paid by the stable who’s ‘Mech injured/killed the pilot.
 
 ### Turn Limits/Draws
 
-For a regular match, there is no turn limit, but if neither player has killed the other’s mech by turn 20, they may choose to call the match a draw, or go into ‘sudden death’.
+A Solaris match is limited to 20 turns.
 
-In sudden death, the first mech to achieve a hit through armour (i.e., damaging structure) on the opposing ‘mech wins.
+If a match reaches 20 turns with neither ‘Mech destroyed, one of two things happens:
 
-If the match is called as a draw, the match must be rescheduled and re-fought.
+1. The match enters sudden-death. The first ‘Mech to deal structure damage to the other is the winner. They receive a kill bonus appropriate to the way in which the structure damage was delivered.
+2. If the players do not wish to enter sudden death, they must both immediately concede. If a ladder match, the match must be re-fought.
 
 ## Post-Match/Inter-match results & administration
+
+### Defining a 'Kill'
+
+When a match is played, a ‘Mech may be destroyed after the shooting or melee phases through ‘pilot error’ e.g. falling over & critting an internal component.
+
+This should be assigned to the player who scored the last blow on the ‘Mech as a kill, with appropriate kill bonuses for the type of damage which led to the ‘Mechs death.
+
+Kills may only be attributed in this way if they happen in the same turn as the damage was inflicted. A ‘Mech which falls over and destroys itself in the following turn is not deemed as a kill.
 
 ### Seed Match Rewards
 
@@ -391,10 +438,10 @@ Seed match rewards are calculated as follows:
 
 | Position                  | Reward  |
 | :---                      | :---:   |
-| Winner                    | 100,000 |
-| 2nd Place                 | 50,000  |
-| 3rd Place                 | 25,000  |
-| 4th Place (5th if needed) | 10,000  |
+| Winner                    | 300,000 |
+| 2nd Place                 | 150,000 |
+| 3rd Place                 | 75,000  |
+| 4th Place (5th if needed) | 50,000  |
 {: .table.table-hover.table-striped }
 
 For seed matches larger than four players, divide the total number of players by four to get the results.
@@ -405,7 +452,7 @@ E.g., for a seed match of eight players, there would be two groups of four. For 
 
 Follow the rules for seed matches not in multiples of four and assign rewards as per the table above.
 
-### Special Match Rewards
+### Exhibition/Team/Grudge Match Rewards
 
 Participants in an exhibition or team match should work out their total rewards from the below table:
 
@@ -426,7 +473,23 @@ For a grudge match, all prizes are multiplied by 1.5 due to the high-stakes and 
 
 These rewards are additive, so a player who participated and won the match would receive a prize of 250,000 C-Bills.
 
-The sole survivor bonus may only be claimed in a team match. It may only be claimed when a ‘mech is the only ‘mech remaining, or to have not conceded, at the end of a team match.
+The sole survivor bonus may only be claimed in a team match. It may only be claimed when a ‘Mech is the only ‘Mech remaining, or to have not conceded, at the end of a team match.
+
+### Grand Melee Match Rewards
+
+Grand melees use the rewards table below:
+
+| Condition                                | Reward                     |
+| :---                                     | :---:                      |
+| Participated                             | 500,000 per `Mech fielded   |
+| Won                                      | 1,000,000 per `Mech fielded |
+| Kill Bonus (Shooting)                    | 250,000                    |
+| Kill Bonus (Melee)                       | 300,000                    |
+| Conceded before round 5                  | -400,000                   |
+| Intentionally targeted an ejected pilot  | Pay base cost of pilot to other stable |
+| Fired on a Conceded `Mech                | Pay all repair bills for other stable |
+| Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
+{: .table.table-hover.table-striped }
 
 ### Regular Match Rewards
 
@@ -436,11 +499,11 @@ Rewards are calculated as follows:
 
 | Condition                               | Reward   |
 | :---                                    | :---:    |
-| Participated                            | 250,000  |
+| Participated                            | 500,000  |
 | Won                                     | 500,000  |
-| Kill Bonus (Shooting)                   | 100,000  |
-| Kill Bonus (Melee)                      | 125,000  |
-| Conceded before round 5                 | -50,000  |
+| Kill Bonus (Shooting)                   | 250,000  |
+| Kill Bonus (Melee)                      | 300,000  |
+| Conceded before round 5                 | -400,000 |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
 | Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
@@ -455,29 +518,29 @@ Rewards are calculated as follows:
 | Condition                               | Reward    |
 | :---                                    | :---:     |
 | **Quarter-Final**                       |           |
-| Participated                            | 500,000   |
+| Participated                            | 750,000   |
 | Won                                     | 750,000   |
-| Kill Bonus (Shooting)                   | 100,000   |
-| Kill Bonus (Melee)                      | 125,000   |
-| Conceded before round 5                 | -50,000   |
+| Kill Bonus (Shooting)                   | 250,000   |
+| Kill Bonus (Melee)                      | 300,000   |
+| Conceded before round 5                 | -500,000  |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
 | Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 | **Semi-Final**                          |           |
-| Participated                            | 750,000   |
+| Participated                            | 1,000,000 |
 | Won                                     | 1,000,000 |
-| Kill Bonus (Shooting)                   | 150,000   |
-| Kill Bonus (Melee)                      | 175,000   |
-| Conceded before round 5                 | -50,000   |
+| Kill Bonus (Shooting)                   | 400,000   |
+| Kill Bonus (Melee)                      | 450,000   |
+| Conceded before round 5                 | -600,000  |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
 | Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
 | **Final**                               |           |
-| Participated                            | 1,000,000 |
-| Won                                     | 3,000,000 |
-| Kill Bonus (Shooting)                   | 250,000   |
-| Kill Bonus (Melee)                      | 300,000   |
-| Conceded before round 5                 | -50,000   |
+| Participated                            | 2,500,000 |
+| Won                                     | 2,500,000 |
+| Kill Bonus (Shooting)                   | 500,000   |
+| Kill Bonus (Melee)                      | 550,000   |
+| Conceded before round 5                 | -700,000  |
 | Intentionally targeted an ejected pilot | Pay base cost of pilot to other stable |
 | Fired on a Conceded `Mech               | Pay all repair bills for other stable |
 | Fired on a Conceded `Mech + Killed Pilot | Pall all repair bills + base cost of pilot to other stable |
@@ -505,12 +568,14 @@ Instead, repairs in MekHQ should be completed automatically, but funds should be
 `Total repair cost = (Mech Tonnage x 1000) x Damage State Modifier x Clan tech? x Tech Skill Modifier`
 {: .bg-white.rounded.border.p-2 }
 
-The Clan Tech modifier is ignored if that `Mech’s technical staff has the ‘Clan Tech Knowledge’ SPA.
+If a ‘Mech sustained no damage, it should still pay repair costs using the Light Damage/Maintenance modifier to represent rearming weapons and general servicing.
+
+The Clan Tech modifier is ignored if that `Mech's technical staff has the ‘Clan Tech Knowledge’ SPA.
 
 | Type of Modifier/Level of Modifier  | Modifier Number |
 | :---                              | :---:          |
 | **Damage State**                  |                |
-| Light Damage                      | 1.20           |
+| Light Damage/Maintenance          | 1.20           |
 | Moderate Damage                   | 1.50           |
 | Heavy Damage                      | 1.80           |
 | Crippled                          | 2.25           |
@@ -529,7 +594,7 @@ The Clan Tech modifier is ignored if that `Mech’s technical staff has the ‘C
 | Elite                             | 0.50           |
 {: .table.table-hover.table-striped }
 
-N.B – These costs are kept relatively low for game reasons to prevent a stable which loses a mech in its first match to catastrophic damage from being totally out of the game.
+N.B – These costs are kept relatively low for game reasons to prevent a stable which loses a Mech in its first match to catastrophic damage from being totally out of the game.
 
 ### Pilot Injury/Death
 
@@ -579,7 +644,7 @@ The paying of pilot and tech salaries should be handled by MekHQ. Salaries are p
 
 #### Administration Costs
 
-Administration costs represent the outgoings to keep the staff of the stable fed and housed, from the MechWarriors down to the Astechs and office staff. It also represents the bribes, license fees, and other miscellanea needed for a stable to operate on the games world.
+Administration costs represent the outgoings to keep the staff of the stable fed and housed, from the MechWarriors down to the astechs and office staff. It also represents the bribes, license fees, and other miscellanea needed for a stable to operate on the games world.
 
 Administration costs are paid weekly, and should be calculated using the following formula:
 
@@ -621,6 +686,8 @@ The crowds of Solaris are fickle however and can quickly find new heroes to chee
 
 Each pilot accumulates renown based on their actions. This renown pot is unique to each pilot and cannot be shared or transferred between pilots. Renown stays with a MechWarrior if they change stables. Whilst renown can be lost due to actions, it can never go below 0.
 
+A MechWarrior’s renown cannot exceed 10 points.
+
 Renown is earned and lost after each battle using the following table:
 
 | Condition                 | Renown Earned/Lost |
@@ -649,8 +716,8 @@ Grudge points are gained using the below table:
 | Per match fought vs. other MechWarrior | 1                         |
 | Cockpit Destroyed                      | 3                         |
 | Conceded `Mech Targeted                | 4                         |
-| MechWarrior targeted outside of 'mech  | 5                         |
-| End of season                          | -3                        |
+| MechWarrior targeted outside of 'Mech  | 5                         |
+| End of season                          | All grudge resets         |
 {: .table.table-hover.table-striped }
 
 Grudge points are additive, so a stable who fought in a match, conceded, and was targeted would earn 5 grudge points.
@@ -690,6 +757,14 @@ Any pilot who increases a skill level below 3+ may also buy a new SPA, using the
 
 The purchasing of an SPA may be postponed until sufficient funds for the desired SPA are available.
 
+#### Re-specializing into a new SPA
+
+A pilot may choose to re-specialize and change their SPA. This can only be done once per season, per pilot.
+
+Re-specialization may be into a new SPA, or to change the focus of an existing SPA e.g. switching from Weapon Specialist Medium Laser to Weapon Specialist Medium Pulse Laser.
+
+To do so, pick the SPA to be changed. Pay the full cost of the new SPA as at character creation and remove the old SPA from the pilot before assigning the new SPA.
+
 #### Skill Maintenance
 
 If a MechWarrior has not taken part in a match in a week, and has a skill rating above ‘Regular’ (G4/P5), they must pay for simulator time to maintain their current skill level.
@@ -706,7 +781,7 @@ The cost for sim time to maintain skill levels should be calculated by adding to
 | N/A      | N/A             | 1        | 80,000          |
 {: .table.table-hover.table-striped }
 
-If a MechWarrior did not pay for maintenance sim time, the player must roll 2d6 on the table below. If the TN is not met, the MechWarrior's skill decreases by one level. If they have an SPA for that skill level, this is also lost.
+If a MechWarrior did not pay for maintenance sim time, the player must roll 2d6 on the table below. If the TN is not met, the MechWarrior’s skill decreases by one level. If they have an SPA for that skill level, this is also lost.
 
 | Skill Level | 2d6 TN |
 | :---:       | :---:  |
@@ -726,10 +801,10 @@ Pilots may be sacked at any time, either to save money or because they have rece
 
 | Pilot Skill Level | Redundancy Payment |
 | :---              | :---:              |
-| Green             | Weekly Salary x 4  |
-| Regular           | Weekly Salary x 5  |
-| Veteran           | Weekly Salary x 6  |
-| Elite             | Weekly Salary x 8  |
+| Green             | Weekly Salary x 1  |
+| Regular           | Weekly Salary x 2  |
+| Veteran           | Weekly Salary x 3  |
+| Elite             | Weekly Salary x 4  |
 {: .table.table-hover.table-striped }
 
 ### Tech Training
@@ -747,18 +822,20 @@ Roll on the table below, applying any bonus for repeated training attempts and d
 | Number of weeks attempted training this skill to the next level | +1 per week, up to a maximum of +3 |
 {: .table.table-hover.table-striped }
 
+A tech who reaches a skill level of 4+ may purchase Clan Tech Knowledge for a cost of 500,000 c-bills. This purchase may be deferred until the stable has sufficient funds.
+
 ### Buying New ‘Mechs/Customizing ‘Mechs
 
-New ‘Mechs may be bought at any point in a season, using the rules from stable creation. ‘Mechs may also be customized at any point in the season using the rules from stable creation. Full costs must be paid. Like at stable creation, a new MechTech must be hired for each ‘mech purchased.
+New ‘Mechs may be bought at any point in a season, using the rules from stable creation. ‘Mechs may also be customized at any point in the season using the rules from stable creation. Full costs must be paid. Like at stable creation, a new MechTech must be hired for each ‘Mech purchased.
 
 ### Selling BattleMechs
 
-A stable may choose to sell a BattleMech at any point in a season but must always have at least one ‘mech on its roster. A stable cannot exist without a BattleMech.
+A stable may choose to sell a BattleMech at any point in a season but must always have at least one ‘Mech on its roster. A stable cannot exist without a BattleMech.
 
 The process for selling a BattleMech is as follows:
 
-1. Make the ‘Mech’s details available to all other players in the tournament, including any details of damage levels.
-2. Other stable masters have a 1-week period in which to place bids for the ‘mech to purchase it if they wish.
+1. Make the ‘Mech's details available to all other players in the tournament, including any details of damage levels.
+2. Other stable masters have a 1-week period in which to place bids for the ‘Mech to purchase it if they wish.
 3. If no other stable master chooses to purchase the ‘Mech by the end of the week, the ‘Mech is sold on the open market for 60% of the price listed in MekHQ.
 
 ### New Pilots
@@ -773,7 +850,7 @@ A season ends once the final regular matches have been played on both the regula
 
 Similar to many more traditional sports leagues, the Solaris stables have an open ‘transfer’ window at the end of a season.
 
-Instead of sacking MechWarriors' to remove them from the roster, a stable may choose to put their contract up for sale, or for loan.
+Instead of sacking MechWarriors to remove them from the roster, a stable may choose to put their contract up for sale, or for loan.
 
 #### Sale of MechWarrior Contracts
 
@@ -811,12 +888,11 @@ As well as fame points accumulated by the stable, the total pilot renown of all 
 
 Fame points are tallied using the table below:
 
-| Condition                                                                           | Number of Fame Points Awarded |
-| :---                                                                                | :---:                         |
-| Won the Regular Ladder                                                              | 5                             |
-| Won the Runners Up Ladder                                                           | 3                             |
-| Most Kills (Awarded to the stable with the highest total kills across all pilots.)  | 2                             |
-| Participated in a season                                                            | 1                             |
+| Condition                 | Number of Fame Points Awarded |
+| :---                      | :---:                         |
+| Won the Regular Ladder    | 5                             |
+| Won the Runners Up Ladder | 3                             |
+| Participated in a season  | 2                             |
 {: .table.table-hover.table-striped }
 
 Fame points are additive – for example, a stable which won the regular ladder final match, had the most kills out of all participating stables, and participated in a season would receive 8 Fame Points, plus the total of their pilots’ renown.
@@ -831,14 +907,14 @@ To calculate rights earnings, roll a 3d6 on the following table, adding the tota
 
 | Dice Roll | Earnings    |
 | :---      | :---:       |
-| 2 - 6     | 1,000,000   |
-| 7 - 12    | 1,500,000   |
-| 13 - 20   | 2,500,000   |
-| 21 - 30   | 5,000,000   |
-| 31 - 50   | 10,000,000  |
+| 2 - 6     | 2,500,000   |
+| 7 - 12    | 5,000,000   |
+| 13 - 20   | 7,500,000   |
+| 21 - 30   | 10,000,000  |
+| 31 - 50   | 12,500,000  |
 | 51 - 80   | 15,000,000  |
-| 81 - 100  | 20,000,000  |
-| 101+      | 25,000,000  |
+| 81 - 100  | 17,500,000  |
+| 101+      | 20,000,000  |
 {: .table.table-hover.table-striped }
 
 #### Outside Investment
@@ -850,10 +926,10 @@ If players wish to seek outside investment, they should roll 2d6 on the below ta
 | Total Roll  | Amount Received | Conditions                                              |
 | :---        | :---:           | ---:                                                    |
 | 2 - 4       | 2,500,000       | Place 2nd or better in a seed match.                    |
-| 7 - 12      | 5,000,000       | Place 1st in a seed match OR win your 1st ladder match  |
-| 13 - 20     | 10,000,000      | Reach the Quarter Finals on any ladder or better        |
-| 21 - 30     | 15,000,000      | Reach the Semi-Finals on the regular ladder             |
-| 31 - 50     | 20,000,000      | Win the final match of the regular ladder                |
+| 5 - 7       | 5,000,000       | Place 1st in a seed match OR win your 1st ladder match  |
+| 8 - 9       | 10,000,000      | Reach the Quarter Finals on any ladder or better        |
+| 10 - 11     | 15,000,000      | Reach the Semi-Finals on the regular ladder             |
+| 12          | 20,000,000      | Win the final match of the regular ladder                |
 {: .table.table-hover.table-striped }
 
 If a player rolls for outside investment, they do not have to pick the investment and can walk away from the deal if they so choose.
@@ -871,7 +947,7 @@ After one season without outside investment has passed, the player may seek outs
 
 If stables have earned enough during a season, and from their inter-season funding, they may choose to buy-in to additional weight classes. There is no limit to the number of weight classes a stable may compete in.
 
-To buy into a new weight class, there must be a minimum of four stables in the player group with the funding to buy-in and purchase a ‘mech of the selected class.
+To buy into a new weight class, there must be a minimum of four stables in the player group with the funding to buy-in and purchase a ‘Mech of the selected class.
 
 Purchasing a competition license for a weight class costs the following:
 
@@ -883,7 +959,7 @@ Purchasing a competition license for a weight class costs the following:
 | Assault | 100,000 |
 {: .table.table-hover.table-striped }
 
-Once a competition license has been purchased it is held indefinitely. A license is only lost if a stable sells its last BattleMech in that weight class e.g., a stable with 2 lights and 1 medium ‘mech sells its medium ‘mech, losing the right to compete in the medium weight class.
+Once a competition license has been purchased it is held indefinitely. A license is only lost if a stable sells its last BattleMech in that weight class e.g., a stable with 2 lights and 1 medium ‘Mech sells its medium ‘Mech, losing the right to compete in the medium weight class.
 
 If a license is lost in this way, it must be repurchased before the stable can compete in that weight class again.
 
@@ -892,6 +968,8 @@ If a license is lost in this way, it must be repurchased before the stable can c
 #### Pay Rises
 
 At the end of each season, MechWarriors and techs should receive a 5% increase to their salary e.g., an elite MechWarrior survives their first season. Their weekly salary is increased to 10,500.
+
+The maximum salary for any member of staff is capped at 20,000 C-Bills per week.
 
 #### Staff Bonuses
 
@@ -914,7 +992,7 @@ If a staff member was not paid a bonus, the player must make a retirement roll f
 | Roll  | Staff Member Retires |
 | :---: | :---:                |
 | 2 - 4 | Yes                  |
-| 5 +   | No                   |
+| 5+    | No                   |
 {: .table.table-hover.table-striped }
 
 A stable master may choose to pay a bonus to a retiring member of staff at this stage to keep them.
